@@ -1,0 +1,13 @@
+.search-box {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+.form-serach {
+}
+.input-search {
+  width: 380px;
+  padding: 0.5rem;
+  border: 1px solid #cdd0d0;
+  outline: 0;
+}

@@ -1,0 +1,37 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+.container {
+  display: flex;
+  padding: 1rem 5rem;
+  background: #f3f5f5;
+}
+@media only screen and (max-width: 1100px) {
+  .container {
+    flex-direction: column;
+    padding: 1rem 0.7rem;
+  }
+}
+
+.main {
+  flex: 1;
+}
+
+.sidebar {
+  flex: 0 0 36%;
+  padding-left: 1.7rem;
+}
+@media only screen and (max-width: 1100px) {
+  .sidebar {
+    padding-left: 0rem;
+    padding-top: 7rem;
+  }
+}
